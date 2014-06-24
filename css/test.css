@@ -1,0 +1,87 @@
+body {
+  background-color: #d0e4fe;
+  font-family: 'Arial';
+  font-size: 100%;
+}
+
+.container {
+    width: 720px;
+    min-width: 720px;
+    max-width: 720px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #F0F;
+    display: table-row;
+    cursor: default;
+}
+
+.container > .title {
+    width: 100%;
+    border-right: dotted 1px #555555;
+    padding-left: 5px;
+}
+
+.container > .dragonite {
+	min-width: 78px;
+	padding-left: 5px;
+	border-right: dotted 1px #555555;
+}
+
+.container > .items {
+    min-width: 58px;
+    padding-left: 5px;
+    border-right: dotted 1px #555555;
+}
+
+.container > .bags {
+    min-width: 58px;
+    padding-left: 5px;
+    border-right: dotted 1px #555555;
+}
+
+.container > .waypoint {
+    padding-left: 5px;
+    text-align: right;
+}
+
+.container > .waypoint > input {
+    background-color: transparent;
+    color: #555555;
+    border: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 9pt;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container > div {
+    display: table-cell;
+    white-space: nowrap;
+    height: 32px;
+    line-height: 32px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    border-bottom: solid 1px #555555;
+}
+
+.container > img {
+    border: none;
+    vertical-align: top;
+}
+
+.active {
+  background-color: red;
+}
+
+.upcoming {
+  background-color: green;
+}
+
